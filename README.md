@@ -13,3 +13,6 @@ Dont buy anything from these people. <br />
 <br />
 and Im quitting and I hope you drown in your shit hater. <br />
 mean this is my final.
+<br />
+# Developer
+user76, mamo434376, HolyEX, 0x173801 or whatever nickname you remember me by.
