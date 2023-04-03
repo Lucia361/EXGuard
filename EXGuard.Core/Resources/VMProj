@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document Version="2">
+	<!--Removed Packer Options: 69832-->
+	<!--Packer Options: 70088-->
+    <Protection InputFileName="dlldir" Options="4552" OutputFileName="dlloutdir">
+        <Messages />
+        <Folders />
+        <Objects>
+            <Object Type="Segment" Name=".text" />
+            <Object Type="Segment" Name=".rsrc" />
+            <Object Type="Segment" Name=".reloc" />
+        </Objects>
+    </Protection>
+    <DLLBox>
+        <Folders />
+    </DLLBox>
+    <Script>
+        <![CDATA[function RandomVariable(length)
+	local res = ""
+	for i = 1, length do
+		res = res .. string.char(math.random(0, 255))
+	end
+	return res
+end
+
+function string.tohex(str)
+    return (str:gsub('.', function (c)
+        return string.format('%02X', string.byte(c))
+    end))
+end
+
+
+function OnAfterSaveFile()
+	local file = vmprotect.core():outputArchitecture()
+	for i = 1, file:segments():count() do
+		segment = file:segments():item(i)		
+		local str = string.tohex(RandomVariable(12))
+		name = str -- str yazan yere section ismini yazabilirsin
+		segment:setName(name)
+	end
+end
+]]>
+</Script>
+    <LicenseManager />
+</Document>
