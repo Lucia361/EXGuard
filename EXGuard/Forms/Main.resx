@@ -1,0 +1,2132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="fluentDesignFormControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fluentDesignFormControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1217, 0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="fluentDesignFormControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Name" xml:space="preserve">
+    <value>fluentDesignFormControl1</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ShowAboutPageCheckButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ShowAboutPageCheckButton.ImageOptions.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="DevExpress.Data.v22.2" name="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+  <data name="ShowAboutPageCheckButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAHECAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGlzdEJ1bGxldHMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcg
+        MCAwIDMyIDMyIj4NCiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5CbGFja3tmaWxsOiM3MjcyNzI7
+        fQoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KPC9zdHlsZT4NCiAgPHBhdGggZD0iTTMwLDhIMTJWNmgxOFY4
+        eiBNMzAsMTZIMTJ2LTJoMThWMTZ6IE0zMCwyNEgxMnYtMmgxOFYyNHoiIGNsYXNzPSJCbGFjayIgLz4N
+        CiAgPHBhdGggZD0iTTgsN2MwLDEuNy0xLjMsMy0zLDNTMiw4LjcsMiw3czEuMy0zLDMtM1M4LDUuMyw4
+        LDd6IE01LDEyYy0xLjcsMC0zLDEuMy0zLDNzMS4zLDMsMywzczMtMS4zLDMtM1M2LjcsMTIsNSwxMiAg
+        eiBNNSwyMGMtMS43LDAtMywxLjMtMywzczEuMywzLDMsM3MzLTEuMywzLTNTNi43LDIwLDUsMjB6IiBj
+        bGFzcz0iQmx1ZSIgLz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="ShowAboutPageCheckButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 262</value>
+  </data>
+  <data name="ShowAboutPageCheckButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 38</value>
+  </data>
+  <data name="ShowAboutPageCheckButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ShowAboutPageCheckButton.Text" xml:space="preserve">
+    <value>About        </value>
+  </data>
+  <data name="&gt;&gt;ShowAboutPageCheckButton.Name" xml:space="preserve">
+    <value>ShowAboutPageCheckButton</value>
+  </data>
+  <data name="&gt;&gt;ShowAboutPageCheckButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowAboutPageCheckButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShowAboutPageCheckButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ShowLogsPageAndProtectCheckButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ShowLogsPageAndProtectCheckButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ShowLogsPageAndProtectCheckButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAFkEAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsdWV7ZmlsbDojMTE3N0Q3O30KCS5Z
+        ZWxsb3d7ZmlsbDojRkZCMTE1O30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5HcmVlbntmaWxsOiMwMzlD
+        MjM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntkaXNwbGF5Om5vbmU7fQoJLnN0M3tk
+        aXNwbGF5OmlubGluZTtmaWxsOiNGRkIxMTU7fQoJLnN0NHtkaXNwbGF5OmlubGluZTt9Cgkuc3Q1e2Rp
+        c3BsYXk6aW5saW5lO29wYWNpdHk6MC43NTt9Cgkuc3Q2e2Rpc3BsYXk6aW5saW5lO29wYWNpdHk6MC41
+        O30KCS5zdDd7ZGlzcGxheTppbmxpbmU7ZmlsbDojMDM5QzIzO30KCS5zdDh7ZGlzcGxheTppbmxpbmU7
+        ZmlsbDojRDExQzFDO30KCS5zdDl7ZGlzcGxheTppbmxpbmU7ZmlsbDojMTE3N0Q3O30KCS5zdDEwe2Rp
+        c3BsYXk6aW5saW5lO2ZpbGw6I0ZGRkZGRjt9Cjwvc3R5bGU+DQogIDxnIGlkPSJDb250cmFjdCI+DQog
+        ICAgPGcgY2xhc3M9InN0MSI+DQogICAgICA8cGF0aCBkPSJNMjIsMTRIMTB2LTJoMTJWMTR6IE0yMiw4
+        SDEwdjJoMTJWOHogTTIyLDE2SDEwdjJoMTJWMTZ6IiBjbGFzcz0iQmxhY2siIC8+DQogICAgPC9nPg0K
+        ICAgIDxwYXRoIGQ9Ik0yNywySDVDNC41LDIsNCwyLjUsNCwzdjI2YzAsMC41LDAuNSwxLDEsMWgyMmMw
+        LjUsMCwxLTAuNSwxLTFWM0MyOCwyLjUsMjcuNSwyLDI3LDJ6IE0yNiwyOEg2VjRoMjBWMjh6IiBjbGFz
+        cz0iQmxhY2siIC8+DQogICAgPHJlY3QgeD0iMTYiIHk9IjIyIiB3aWR0aD0iNiIgaGVpZ2h0PSIyIiBj
+        bGFzcz0iQmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="ShowLogsPageAndProtectCheckButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 215</value>
+  </data>
+  <data name="ShowLogsPageAndProtectCheckButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 38</value>
+  </data>
+  <data name="ShowLogsPageAndProtectCheckButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ShowLogsPageAndProtectCheckButton.Text" xml:space="preserve">
+    <value>Protect        </value>
+  </data>
+  <data name="&gt;&gt;ShowLogsPageAndProtectCheckButton.Name" xml:space="preserve">
+    <value>ShowLogsPageAndProtectCheckButton</value>
+  </data>
+  <data name="&gt;&gt;ShowLogsPageAndProtectCheckButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowLogsPageAndProtectCheckButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShowLogsPageAndProtectCheckButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ShowRuntimeSettingsPageCheckButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ShowRuntimeSettingsPageCheckButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAJYEAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLlllbGxvd3tmaWxsOiNGRkIxMTU7fQoJ
+        LlJlZHtmaWxsOiNEMTFDMUM7fQoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9CgkuQmx1ZXtmaWxsOiMxMTc3
+        RDc7fQoJLldoaXRle2ZpbGw6I0ZGRkZGRjt9CgkuR3JlZW57ZmlsbDojMDM5QzIzO30KCS5zdDB7b3Bh
+        Y2l0eTowLjc1O30KCS5zdDF7b3BhY2l0eTowLjU7fQoJLnN0MntvcGFjaXR5OjAuMjU7fQoJLnN0M3tm
+        aWxsOiNGRkIxMTU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iUGFyYW1ldGVycyI+DQogICAgPHBhdGggZD0i
+        TTE0LDI2SDZWNGgxOHYxMmMwLjcsMC4yLDEuNCwwLjUsMiwwLjhWM2MwLTAuNi0wLjQtMS0xLTFINUM0
+        LjQsMiw0LDIuNCw0LDN2MjRjMCwwLjYsMC40LDEsMSwxaDkuOCAgIEMxNC41LDI3LjQsMTQuMiwyNi43
+        LDE0LDI2eiIgY2xhc3M9IkJsYWNrIiAvPg0KICAgIDxwYXRoIGQ9Ik0zMCwyNXYtMmwtMi4yLTAuNGMt
+        MC4yLTAuNi0wLjQtMS4zLTAuOC0xLjhsMS4zLTEuOGwtMS40LTEuNGwtMS44LDEuM2MtMC41LTAuMy0x
+        LjItMC42LTEuOC0wLjdMMjMsMTZoLTIgICBsLTAuNCwyLjJjLTAuNiwwLjItMS4zLDAuNC0xLjgsMC43
+        TDE3LDE3LjZMMTUuNiwxOWwxLjMsMS44Yy0wLjMsMC41LTAuNiwxLjItMC44LDEuOEwxNCwyM3YybDIu
+        MiwwLjRjMC4yLDAuNiwwLjQsMS4zLDAuOCwxLjggICBMMTUuNywyOWwxLjQsMS40bDEuOC0xLjNjMC41
+        LDAuMywxLjIsMC42LDEuOCwwLjdMMjEsMzJoMmwwLjQtMi4yYzAuNi0wLjIsMS4zLTAuNCwxLjgtMC43
+        bDEuOCwxLjNsMS40LTEuNGwtMS4zLTEuOCAgIGMwLjMtMC41LDAuNi0xLjIsMC44LTEuOEwzMCwyNXog
+        TTIyLDI2Yy0xLjEsMC0yLTAuOS0yLTJzMC45LTIsMi0yczIsMC45LDIsMlMyMy4xLDI2LDIyLDI2eiIg
+        Y2xhc3M9IkJsdWUiIC8+DQogIDwvZz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="ShowRuntimeSettingsPageCheckButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 168</value>
+  </data>
+  <data name="ShowRuntimeSettingsPageCheckButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 38</value>
+  </data>
+  <data name="ShowRuntimeSettingsPageCheckButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ShowRuntimeSettingsPageCheckButton.Text" xml:space="preserve">
+    <value>Runtime Settings        </value>
+  </data>
+  <data name="&gt;&gt;ShowRuntimeSettingsPageCheckButton.Name" xml:space="preserve">
+    <value>ShowRuntimeSettingsPageCheckButton</value>
+  </data>
+  <data name="&gt;&gt;ShowRuntimeSettingsPageCheckButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowRuntimeSettingsPageCheckButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShowRuntimeSettingsPageCheckButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ShowFunctionsPageCheckButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ShowFunctionsPageCheckButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAMQEAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzczNzM3NDt9Cgku
+        WWVsbG93e2ZpbGw6I0ZDQjAxQjt9CgkuR3JlZW57ZmlsbDojMTI5QzQ5O30KCS5CbHVle2ZpbGw6IzM4
+        N0NCNzt9CgkuUmVke2ZpbGw6I0QwMjEyNzt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntvcGFjaXR5OjAuMjU7fQoJLnN0M3tk
+        aXNwbGF5Om5vbmU7ZmlsbDojNzM3Mzc0O30KPC9zdHlsZT4NCiAgPHBvbHlnb24gcG9pbnRzPSIzMSwz
+        IDI4LDAgMjgsMiAyLDIgMiw0IDI4LDQgMjgsNiAiIGNsYXNzPSJCbGFjayIgLz4NCiAgPHBhdGggZD0i
+        TTcsNkgzQzIuNSw2LDIsNi40LDIsN3Y0YzAsMC42LDAuNSwxLDEsMWg0YzAuNSwwLDEtMC40LDEtMVY3
+        QzgsNi40LDcuNSw2LDcsNnogTTYsMTBINFY4aDJWMTB6IiBjbGFzcz0iQmx1ZSIgLz4NCiAgPHBhdGgg
+        ZD0iTTE5LDEyaC00Yy0wLjUsMC0xLDAuNC0xLDF2NGMwLDAuNiwwLjUsMSwxLDFoNGMwLjUsMCwxLTAu
+        NCwxLTF2LTRDMjAsMTIuNCwxOS41LDEyLDE5LDEyeiBNMTgsMTZoLTJ2LTJoMlYxNiAgeiBNMTksMjBo
+        LTRjLTAuNSwwLTEsMC40LTEsMXY0YzAsMC42LDAuNSwxLDEsMWg0YzAuNSwwLDEtMC40LDEtMXYtNEMy
+        MCwyMC40LDE5LjUsMjAsMTksMjB6IE0xOCwyNGgtMnYtMmgyVjI0eiIgY2xhc3M9IkJsdWUiIC8+DQog
+        IDxwYXRoIGQ9Ik0zMSwyNmgtNGMtMC41LDAtMSwwLjQtMSwxdjRjMCwwLjYsMC41LDEsMSwxaDRjMC41
+        LDAsMS0wLjQsMS0xdi00QzMyLDI2LjQsMzEuNSwyNiwzMSwyNnogTTMwLDMwaC0ydi0yaDJWMzAgIHoi
+        IGNsYXNzPSJCbHVlIiAvPg0KICA8ZyBjbGFzcz0ic3QwIj4NCiAgICA8cGF0aCBkPSJNNiwxNGg4djJI
+        NnY2aDh2Mkg0VjEyaDJWMTR6IE0xOCwyOHYtMmgtMnY0aDEwdi0ySDE4eiIgY2xhc3M9IkJsYWNrIiAv
+        Pg0KICA8L2c+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="ShowFunctionsPageCheckButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 121</value>
+  </data>
+  <data name="ShowFunctionsPageCheckButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 38</value>
+  </data>
+  <data name="ShowFunctionsPageCheckButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ShowFunctionsPageCheckButton.Text" xml:space="preserve">
+    <value>Functions         </value>
+  </data>
+  <data name="&gt;&gt;ShowFunctionsPageCheckButton.Name" xml:space="preserve">
+    <value>ShowFunctionsPageCheckButton</value>
+  </data>
+  <data name="&gt;&gt;ShowFunctionsPageCheckButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowFunctionsPageCheckButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShowFunctionsPageCheckButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ShowProtectionsPageCheckButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ShowProtectionsPageCheckButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAEMFAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkdyZWVue2ZpbGw6IzAzOUMyMzt9Cgku
+        QmxhY2t7ZmlsbDojNzI3MjcyO30KCS5SZWR7ZmlsbDojRDExQzFDO30KCS5ZZWxsb3d7ZmlsbDojRkZC
+        MTE1O30KCS5CbHVle2ZpbGw6IzExNzdENzt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQo8L3N0eWxlPg0KICA8ZyBpZD0iU2hvd0FsbFZh
+        bHVlIj4NCiAgICA8Y2lyY2xlIGN4PSI4IiBjeT0iOCIgcj0iMiIgY2xhc3M9IkdyZWVuIiAvPg0KICAg
+        IDxwYXRoIGQ9Ik04LDJDNC43LDIsMiw0LjcsMiw4czIuNyw2LDYsNnM2LTIuNyw2LTZTMTEuMywyLDgs
+        MnogTTgsMTJjLTIuMiwwLTQtMS44LTQtNGMwLTIuMiwxLjgtNCw0LTRzNCwxLjgsNCw0ICAgQzEyLDEw
+        LjIsMTAuMiwxMiw4LDEyeiBNOCwxNmMtMy4zLDAtNiwyLjctNiw2czIuNyw2LDYsNnM2LTIuNyw2LTZT
+        MTEuMywxNiw4LDE2eiBNOCwyNmMtMi4yLDAtNC0xLjgtNC00YzAtMi4yLDEuOC00LDQtNCAgIHM0LDEu
+        OCw0LDRDMTIsMjQuMiwxMC4yLDI2LDgsMjZ6IE0yNiwxMEgxNlY2aDEwVjEweiIgY2xhc3M9IkJsYWNr
+        IiAvPg0KICAgIDxwYXRoIGQ9Ik0zMiwyNXYtMmwtMi4yLTAuNGMtMC4yLTAuNi0wLjQtMS4zLTAuOC0x
+        LjhsMS4zLTEuOGwtMS40LTEuNGwtMS44LDEuM2MtMC41LTAuMy0xLjItMC42LTEuOC0wLjdMMjUsMTZo
+        LTIgICBsLTAuNCwyLjJjLTAuNiwwLjItMS4zLDAuNC0xLjgsMC43TDE5LDE3LjZMMTcuNiwxOWwxLjMs
+        MS44Yy0wLjMsMC41LTAuNiwxLjItMC44LDEuOEwxNiwyM3YybDIuMiwwLjRjMC4yLDAuNiwwLjQsMS4z
+        LDAuOCwxLjggICBMMTcuNywyOWwxLjQsMS40bDEuOC0xLjNjMC41LDAuMywxLjIsMC42LDEuOCwwLjdM
+        MjMsMzJoMmwwLjQtMi4yYzAuNi0wLjIsMS4zLTAuNCwxLjgtMC43bDEuOCwxLjNsMS40LTEuNGwtMS4z
+        LTEuOCAgIGMwLjMtMC41LDAuNi0xLjIsMC44LTEuOEwzMiwyNXogTTI0LDI2Yy0xLjEsMC0yLTAuOS0y
+        LTJjMC0xLjEsMC45LTIsMi0yczIsMC45LDIsMkMyNiwyNS4xLDI1LjEsMjYsMjQsMjZ6IiBjbGFzcz0i
+        Qmx1ZSIgLz4NCiAgPC9nPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="ShowProtectionsPageCheckButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 73</value>
+  </data>
+  <data name="ShowProtectionsPageCheckButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 38</value>
+  </data>
+  <data name="ShowProtectionsPageCheckButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ShowProtectionsPageCheckButton.Text" xml:space="preserve">
+    <value>Protections        </value>
+  </data>
+  <data name="&gt;&gt;ShowProtectionsPageCheckButton.Name" xml:space="preserve">
+    <value>ShowProtectionsPageCheckButton</value>
+  </data>
+  <data name="&gt;&gt;ShowProtectionsPageCheckButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowProtectionsPageCheckButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShowProtectionsPageCheckButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ShowMainPageCheckButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt, style=Bold</value>
+  </data>
+  <data name="ShowMainPageCheckButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAKIDAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzczNzM3NDt9Cgku
+        WWVsbG93e2ZpbGw6I0ZDQjAxQjt9CgkuR3JlZW57ZmlsbDojMTI5QzQ5O30KCS5CbHVle2ZpbGw6IzM4
+        N0NCNzt9CgkuUmVke2ZpbGw6I0QwMjEyNzt9CgkuV2hpdGV7ZmlsbDojRkZGRkZGO30KCS5zdDB7b3Bh
+        Y2l0eTowLjU7fQoJLnN0MXtvcGFjaXR5OjAuNzU7fQoJLnN0MntvcGFjaXR5OjAuMjU7fQoJLnN0M3tk
+        aXNwbGF5Om5vbmU7ZmlsbDojNzM3Mzc0O30KPC9zdHlsZT4NCiAgPHBhdGggZD0iTTIxLjUsMjhIMjBI
+        NlY0aDE0djVjMCwwLjYsMC40LDEsMSwxaDV2MTMuNWwyLDJWOWwtNy03SDVDNC40LDIsNCwyLjQsNCwz
+        djI2YzAsMC42LDAuNCwxLDEsMWgxOC41TDIxLjUsMjh6ICAiIGNsYXNzPSJCbGFjayIgLz4NCiAgPHBh
+        dGggZD0iTTE4LDEzLjljMy4zLDAsNiwyLjcsNiw2YzAsMS4yLTAuNCwyLjMtMSwzLjNsNC42LDQuNmMw
+        LjUsMC41LDAuNSwxLjMsMCwxLjdjLTAuNSwwLjUtMS4zLDAuNS0xLjcsMEwyMS4zLDI1ICBjLTAuOSww
+        LjYtMi4xLDEtMy4zLDFjLTMuMywwLTYtMi43LTYtNkMxMS45LDE2LjYsMTQuNiwxMy45LDE4LDEzLjl6
+        IE0xOCwyNGMyLjIsMCw0LTEuOCw0LTRzLTEuOC00LTQtNHMtNCwxLjgtNCw0UzE1LjgsMjQsMTgsMjR6
+        ICAiIGNsYXNzPSJCbHVlIiAvPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="ShowMainPageCheckButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 26</value>
+  </data>
+  <data name="ShowMainPageCheckButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 38</value>
+  </data>
+  <data name="ShowMainPageCheckButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ShowMainPageCheckButton.Text" xml:space="preserve">
+    <value>Main           </value>
+  </data>
+  <data name="&gt;&gt;ShowMainPageCheckButton.Name" xml:space="preserve">
+    <value>ShowMainPageCheckButton</value>
+  </data>
+  <data name="&gt;&gt;ShowMainPageCheckButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ShowMainPageCheckButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ShowMainPageCheckButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NULLGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 0</value>
+  </data>
+  <data name="NULLGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 510</value>
+  </data>
+  <data name="NULLGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox.Name" xml:space="preserve">
+    <value>NULLGroupBox</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox.Parent" xml:space="preserve">
+    <value>fluentDesignFormContainer1</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EXGTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="EXGTabControl.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="EXGTabControl.AppearancePage.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="EXGTabControl.AppearancePage.HeaderActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="EXGTabControl.AppearancePage.HeaderDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="EXGTabControl.AppearancePage.HeaderHotTracked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="EXGTabControl.AppearancePage.PageClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="EXGTabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>282, 13</value>
+  </data>
+  <data name="MainTabPage.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="MainTabPage.Appearance.HeaderActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="MainTabPage.Appearance.HeaderDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="MainTabPage.Appearance.HeaderHotTracked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="MainTabPage.Appearance.PageClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NULLGroupBox2.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ActiveSNK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>815, 24</value>
+  </data>
+  <data name="ActiveSNK.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ActiveSNK.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="ActiveSNK.Properties.OffText" xml:space="preserve">
+    <value>Anti Debug</value>
+  </data>
+  <data name="ActiveSNK.Properties.OnText" xml:space="preserve">
+    <value>Anti Debug</value>
+  </data>
+  <data name="ActiveSNK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 25</value>
+  </data>
+  <data name="ActiveSNK.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ActiveSNK.Name" xml:space="preserve">
+    <value>ActiveSNK</value>
+  </data>
+  <data name="&gt;&gt;ActiveSNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ActiveSNK.Parent" xml:space="preserve">
+    <value>NULLGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;ActiveSNK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NULLabel0.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NULLabel0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 147</value>
+  </data>
+  <data name="NULLabel0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 14</value>
+  </data>
+  <data name="NULLabel0.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="NULLabel0.Text" xml:space="preserve">
+    <value>Strong Name Key Password</value>
+  </data>
+  <data name="&gt;&gt;NULLabel0.Name" xml:space="preserve">
+    <value>NULLabel0</value>
+  </data>
+  <data name="&gt;&gt;NULLabel0.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLabel0.Parent" xml:space="preserve">
+    <value>NULLGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;NULLabel0.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SNKPasswordBox.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SNKPasswordBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SNKPasswordBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 170</value>
+  </data>
+  <data name="SNKPasswordBox.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="SNKPasswordBox.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SNKPasswordBox.Properties.NullText" xml:space="preserve">
+    <value> SNK Password...</value>
+  </data>
+  <data name="SNKPasswordBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 29</value>
+  </data>
+  <data name="SNKPasswordBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;SNKPasswordBox.Name" xml:space="preserve">
+    <value>SNKPasswordBox</value>
+  </data>
+  <data name="&gt;&gt;SNKPasswordBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SNKPasswordBox.Parent" xml:space="preserve">
+    <value>NULLGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;SNKPasswordBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BrowseSNKFileButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="BrowseSNKFileButton.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BrowseSNKFileButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAAMDAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iT3BlbjIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMy
+        IDMyIj4NCiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5HcmVlbntmaWxsOiMwMzlDMjM7fQoJLlll
+        bGxvd3tmaWxsOiNGRkIxMTU7fQoJLnN0MHtvcGFjaXR5OjAuNzU7fQo8L3N0eWxlPg0KICA8ZyBjbGFz
+        cz0ic3QwIj4NCiAgICA8cGF0aCBkPSJNMTkuMiwxMEgxMlY3YzAtMC42LTAuNC0xLTEtMUgzQzIuNCw2
+        LDIsNi41LDIsN3YxOGMwLDAuMiwwLDAuMywwLjEsMC40YzAsMCwwLjEtMC4xLDAuMS0wLjJsNS41LTEw
+        ICAgQzgsMTQuNSw4LjcsMTQsOS41LDE0aDEzLjdMMTkuMiwxMHoiIGNsYXNzPSJZZWxsb3ciIC8+DQog
+        IDwvZz4NCiAgPHBhdGggZD0iTTI5LjMsMTZIOS42TDQsMjZoMTkuOGMwLjUsMCwxLjEtMC4yLDEuMy0w
+        LjZsNC45LTguOUMzMC4xLDE2LjIsMjkuOCwxNiwyOS4zLDE2eiIgY2xhc3M9IlllbGxvdyIgLz4NCiAg
+        PHBhdGggZD0iTTI4LDhjMC0zLjMtMi43LTYtNi02cy02LDIuNy02LDZjMC0yLjIsMS44LTQsNC00czQs
+        MS44LDQsNGgtNGw2LDZsNi02SDI4eiIgY2xhc3M9IkdyZWVuIiAvPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="BrowseSNKFileButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 102</value>
+  </data>
+  <data name="BrowseSNKFileButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 33</value>
+  </data>
+  <data name="BrowseSNKFileButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BrowseSNKFileButton.Text" xml:space="preserve">
+    <value>Browse strong name key (SNK)</value>
+  </data>
+  <data name="&gt;&gt;BrowseSNKFileButton.Name" xml:space="preserve">
+    <value>BrowseSNKFileButton</value>
+  </data>
+  <data name="&gt;&gt;BrowseSNKFileButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BrowseSNKFileButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;BrowseSNKFileButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NULLabel.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NULLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 44</value>
+  </data>
+  <data name="NULLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 14</value>
+  </data>
+  <data name="NULLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NULLabel.Text" xml:space="preserve">
+    <value>Strong Name Key (SNK) Location</value>
+  </data>
+  <data name="&gt;&gt;NULLabel.Name" xml:space="preserve">
+    <value>NULLabel</value>
+  </data>
+  <data name="&gt;&gt;NULLabel.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLabel.Parent" xml:space="preserve">
+    <value>NULLGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;NULLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="SNKLocationBox.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SNKLocationBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SNKLocationBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 67</value>
+  </data>
+  <data name="SNKLocationBox.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="SNKLocationBox.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="SNKLocationBox.Properties.NullText" xml:space="preserve">
+    <value> Drag SNK drop here</value>
+  </data>
+  <data name="SNKLocationBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 29</value>
+  </data>
+  <data name="SNKLocationBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SNKLocationBox.Name" xml:space="preserve">
+    <value>SNKLocationBox</value>
+  </data>
+  <data name="&gt;&gt;SNKLocationBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;SNKLocationBox.Parent" xml:space="preserve">
+    <value>NULLGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;SNKLocationBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NULLGroupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="NULLGroupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 250</value>
+  </data>
+  <data name="NULLGroupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 220</value>
+  </data>
+  <data name="NULLGroupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NULLGroupBox2.Text" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox2.Name" xml:space="preserve">
+    <value>NULLGroupBox2</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox2.Parent" xml:space="preserve">
+    <value>MainTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NULLGroupBox1.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="BrowseDestinationButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="BrowseDestinationButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAFMCAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iTGF5ZXJfMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAg
+        MzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6IzcyNzI3Mjt9Cgku
+        R3JlZW57ZmlsbDojMDM5QzIzO30KPC9zdHlsZT4NCiAgPGcgaWQ9IkV4cG9ydCI+DQogICAgPHBhdGgg
+        ZD0iTTEwLDEySDZWNmg0VjEyeiBNMjIsMTJ2NnY5YzAsMC42LTAuNCwxLTEsMUgxYy0wLjYsMC0xLTAu
+        NC0xLTFWN2MwLTAuNiwwLjQtMSwxLTFoM3Y4aDE0di0ySDIyeiBNMTgsMThINCAgIHY2aDE0VjE4eiIg
+        Y2xhc3M9IkJsYWNrIiAvPg0KICAgIDxwb2x5Z29uIHBvaW50cz0iMTYsMTAgMjQsMTAgMjQsMTQgMzIs
+        OCAyNCwyIDI0LDYgMTYsNiAgIiBjbGFzcz0iR3JlZW4iIC8+DQogIDwvZz4NCjwvc3ZnPgs=
+</value>
+  </data>
+  <data name="BrowseDestinationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 70</value>
+  </data>
+  <data name="BrowseDestinationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 33</value>
+  </data>
+  <data name="BrowseDestinationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BrowseDestinationButton.Text" xml:space="preserve">
+    <value>Select assembly output location</value>
+  </data>
+  <data name="&gt;&gt;BrowseDestinationButton.Name" xml:space="preserve">
+    <value>BrowseDestinationButton</value>
+  </data>
+  <data name="&gt;&gt;BrowseDestinationButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BrowseDestinationButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;BrowseDestinationButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DestinationBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 34</value>
+  </data>
+  <data name="DestinationBox.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="DestinationBox.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DestinationBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 29</value>
+  </data>
+  <data name="DestinationBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DestinationBox.Name" xml:space="preserve">
+    <value>DestinationBox</value>
+  </data>
+  <data name="&gt;&gt;DestinationBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DestinationBox.Parent" xml:space="preserve">
+    <value>NULLGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;DestinationBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NULLGroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 125</value>
+  </data>
+  <data name="NULLGroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 125</value>
+  </data>
+  <data name="NULLGroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox1.Text" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox1.Name" xml:space="preserve">
+    <value>NULLGroupBox1</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox1.Parent" xml:space="preserve">
+    <value>MainTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox0.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="BrowseAsmButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="BrowseAsmButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAAMDAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iT3BlbjIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMy
+        IDMyIj4NCiAgPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5HcmVlbntmaWxsOiMwMzlDMjM7fQoJLlll
+        bGxvd3tmaWxsOiNGRkIxMTU7fQoJLnN0MHtvcGFjaXR5OjAuNzU7fQo8L3N0eWxlPg0KICA8ZyBjbGFz
+        cz0ic3QwIj4NCiAgICA8cGF0aCBkPSJNMTkuMiwxMEgxMlY3YzAtMC42LTAuNC0xLTEtMUgzQzIuNCw2
+        LDIsNi41LDIsN3YxOGMwLDAuMiwwLDAuMywwLjEsMC40YzAsMCwwLjEtMC4xLDAuMS0wLjJsNS41LTEw
+        ICAgQzgsMTQuNSw4LjcsMTQsOS41LDE0aDEzLjdMMTkuMiwxMHoiIGNsYXNzPSJZZWxsb3ciIC8+DQog
+        IDwvZz4NCiAgPHBhdGggZD0iTTI5LjMsMTZIOS42TDQsMjZoMTkuOGMwLjUsMCwxLjEtMC4yLDEuMy0w
+        LjZsNC45LTguOUMzMC4xLDE2LjIsMjkuOCwxNiwyOS4zLDE2eiIgY2xhc3M9IlllbGxvdyIgLz4NCiAg
+        PHBhdGggZD0iTTI4LDhjMC0zLjMtMi43LTYtNi02cy02LDIuNy02LDZjMC0yLjIsMS44LTQsNC00czQs
+        MS44LDQsNGgtNGw2LDZsNi02SDI4eiIgY2xhc3M9IkdyZWVuIiAvPg0KPC9zdmc+Cw==
+</value>
+  </data>
+  <data name="BrowseAsmButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>725, 70</value>
+  </data>
+  <data name="BrowseAsmButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 33</value>
+  </data>
+  <data name="BrowseAsmButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BrowseAsmButton.Text" xml:space="preserve">
+    <value>Browse assembly</value>
+  </data>
+  <data name="&gt;&gt;BrowseAsmButton.Name" xml:space="preserve">
+    <value>BrowseAsmButton</value>
+  </data>
+  <data name="&gt;&gt;BrowseAsmButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BrowseAsmButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox0</value>
+  </data>
+  <data name="&gt;&gt;BrowseAsmButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AsmBox.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AsmBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 34</value>
+  </data>
+  <data name="AsmBox.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AsmBox.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AsmBox.Properties.NullText" xml:space="preserve">
+    <value> Drag assembly drop here</value>
+  </data>
+  <data name="AsmBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>863, 29</value>
+  </data>
+  <data name="AsmBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AsmBox.Name" xml:space="preserve">
+    <value>AsmBox</value>
+  </data>
+  <data name="&gt;&gt;AsmBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AsmBox.Parent" xml:space="preserve">
+    <value>NULLGroupBox0</value>
+  </data>
+  <data name="&gt;&gt;AsmBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox0.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NULLGroupBox0.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NULLGroupBox0.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 125</value>
+  </data>
+  <data name="NULLGroupBox0.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NULLGroupBox0.Text" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox0.Name" xml:space="preserve">
+    <value>NULLGroupBox0</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox0.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox0.Parent" xml:space="preserve">
+    <value>MainTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox0.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MainTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 470</value>
+  </data>
+  <data name="MainTabPage.Text" xml:space="preserve">
+    <value>Main Page</value>
+  </data>
+  <data name="&gt;&gt;MainTabPage.Name" xml:space="preserve">
+    <value>MainTabPage</value>
+  </data>
+  <data name="&gt;&gt;MainTabPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;MainTabPage.Parent" xml:space="preserve">
+    <value>EXGTabControl</value>
+  </data>
+  <data name="&gt;&gt;MainTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EXGTabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>920, 498</value>
+  </data>
+  <data name="EXGTabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ProtectionsTabPage.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ProtectionsTabPage.Appearance.HeaderActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ProtectionsTabPage.Appearance.HeaderDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ProtectionsTabPage.Appearance.HeaderHotTracked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ProtectionsTabPage.Appearance.PageClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NULLGroupBox3X.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="NULLGroupBox3X.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="CodeFlowToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 149</value>
+  </data>
+  <data name="CodeFlowToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="CodeFlowToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="CodeFlowToggle.Properties.OffText" xml:space="preserve">
+    <value>Code Flow</value>
+  </data>
+  <data name="CodeFlowToggle.Properties.OnText" xml:space="preserve">
+    <value>Code Flow</value>
+  </data>
+  <data name="CodeFlowToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="CodeFlowToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;CodeFlowToggle.Name" xml:space="preserve">
+    <value>CodeFlowToggle</value>
+  </data>
+  <data name="&gt;&gt;CodeFlowToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CodeFlowToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3X</value>
+  </data>
+  <data name="&gt;&gt;CodeFlowToggle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CodeMutationToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 118</value>
+  </data>
+  <data name="CodeMutationToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="CodeMutationToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="CodeMutationToggle.Properties.OffText" xml:space="preserve">
+    <value>Code Mutation</value>
+  </data>
+  <data name="CodeMutationToggle.Properties.OnText" xml:space="preserve">
+    <value>Code Mutation</value>
+  </data>
+  <data name="CodeMutationToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 25</value>
+  </data>
+  <data name="CodeMutationToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;CodeMutationToggle.Name" xml:space="preserve">
+    <value>CodeMutationToggle</value>
+  </data>
+  <data name="&gt;&gt;CodeMutationToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;CodeMutationToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3X</value>
+  </data>
+  <data name="&gt;&gt;CodeMutationToggle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="VirtualizeAllReferenceProxiesToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 87</value>
+  </data>
+  <data name="VirtualizeAllReferenceProxiesToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="VirtualizeAllReferenceProxiesToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="VirtualizeAllReferenceProxiesToggle.Properties.OffText" xml:space="preserve">
+    <value>Virtualize All Reference Proxies</value>
+  </data>
+  <data name="VirtualizeAllReferenceProxiesToggle.Properties.OnText" xml:space="preserve">
+    <value>Virtualize All Reference Proxies</value>
+  </data>
+  <data name="VirtualizeAllReferenceProxiesToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 25</value>
+  </data>
+  <data name="VirtualizeAllReferenceProxiesToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllReferenceProxiesToggle.Name" xml:space="preserve">
+    <value>VirtualizeAllReferenceProxiesToggle</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllReferenceProxiesToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllReferenceProxiesToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3X</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllReferenceProxiesToggle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ResourceCompressAndEncryptToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>361, 25</value>
+  </data>
+  <data name="ResourceCompressAndEncryptToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="ResourceCompressAndEncryptToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="ResourceCompressAndEncryptToggle.Properties.OffText" xml:space="preserve">
+    <value>Resource Compress and Encrypt</value>
+  </data>
+  <data name="ResourceCompressAndEncryptToggle.Properties.OnText" xml:space="preserve">
+    <value>Resource Compress and Encrypt</value>
+  </data>
+  <data name="ResourceCompressAndEncryptToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 25</value>
+  </data>
+  <data name="ResourceCompressAndEncryptToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ResourceCompressAndEncryptToggle.Name" xml:space="preserve">
+    <value>ResourceCompressAndEncryptToggle</value>
+  </data>
+  <data name="&gt;&gt;ResourceCompressAndEncryptToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ResourceCompressAndEncryptToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3X</value>
+  </data>
+  <data name="&gt;&gt;ResourceCompressAndEncryptToggle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="VirtualizeAllNumbersToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 56</value>
+  </data>
+  <data name="VirtualizeAllNumbersToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="VirtualizeAllNumbersToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="VirtualizeAllNumbersToggle.Properties.OffText" xml:space="preserve">
+    <value>Virtualize All Numbers</value>
+  </data>
+  <data name="VirtualizeAllNumbersToggle.Properties.OnText" xml:space="preserve">
+    <value>Virtualize All Numbers</value>
+  </data>
+  <data name="VirtualizeAllNumbersToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 25</value>
+  </data>
+  <data name="VirtualizeAllNumbersToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllNumbersToggle.Name" xml:space="preserve">
+    <value>VirtualizeAllNumbersToggle</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllNumbersToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllNumbersToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3X</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllNumbersToggle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="VirtualizeAllStringsToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 25</value>
+  </data>
+  <data name="VirtualizeAllStringsToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="VirtualizeAllStringsToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="VirtualizeAllStringsToggle.Properties.OffText" xml:space="preserve">
+    <value>Virtualize All Strings</value>
+  </data>
+  <data name="VirtualizeAllStringsToggle.Properties.OnText" xml:space="preserve">
+    <value>Virtualize All Strings</value>
+  </data>
+  <data name="VirtualizeAllStringsToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 25</value>
+  </data>
+  <data name="VirtualizeAllStringsToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllStringsToggle.Name" xml:space="preserve">
+    <value>VirtualizeAllStringsToggle</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllStringsToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllStringsToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3X</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllStringsToggle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NULLGroupBox3X.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 3</value>
+  </data>
+  <data name="NULLGroupBox3X.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 456</value>
+  </data>
+  <data name="NULLGroupBox3X.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox3X.Text" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3X.Name" xml:space="preserve">
+    <value>NULLGroupBox3X</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3X.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3X.Parent" xml:space="preserve">
+    <value>ProtectionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3X.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NULLGroupBox3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="NULLGroupBox3.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiWebDebuggersToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 211</value>
+  </data>
+  <data name="AntiWebDebuggersToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiWebDebuggersToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="AntiWebDebuggersToggle.Properties.OffText" xml:space="preserve">
+    <value>Anti Web Debuggers</value>
+  </data>
+  <data name="AntiWebDebuggersToggle.Properties.OnText" xml:space="preserve">
+    <value>Anti Web Debuggers</value>
+  </data>
+  <data name="AntiWebDebuggersToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 25</value>
+  </data>
+  <data name="AntiWebDebuggersToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AntiWebDebuggersToggle.Name" xml:space="preserve">
+    <value>AntiWebDebuggersToggle</value>
+  </data>
+  <data name="&gt;&gt;AntiWebDebuggersToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AntiWebDebuggersToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;AntiWebDebuggersToggle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AntiDnspyToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 180</value>
+  </data>
+  <data name="AntiDnspyToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiDnspyToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="AntiDnspyToggle.Properties.OffText" xml:space="preserve">
+    <value>Anti Dnspy</value>
+  </data>
+  <data name="AntiDnspyToggle.Properties.OnText" xml:space="preserve">
+    <value>Anti Dnspy</value>
+  </data>
+  <data name="AntiDnspyToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 25</value>
+  </data>
+  <data name="AntiDnspyToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;AntiDnspyToggle.Name" xml:space="preserve">
+    <value>AntiDnspyToggle</value>
+  </data>
+  <data name="&gt;&gt;AntiDnspyToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AntiDnspyToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;AntiDnspyToggle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AntiDe4dotToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 149</value>
+  </data>
+  <data name="AntiDe4dotToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiDe4dotToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="AntiDe4dotToggle.Properties.OffText" xml:space="preserve">
+    <value>Anti De4dot</value>
+  </data>
+  <data name="AntiDe4dotToggle.Properties.OnText" xml:space="preserve">
+    <value>Anti De4dot</value>
+  </data>
+  <data name="AntiDe4dotToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 25</value>
+  </data>
+  <data name="AntiDe4dotToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;AntiDe4dotToggle.Name" xml:space="preserve">
+    <value>AntiDe4dotToggle</value>
+  </data>
+  <data name="&gt;&gt;AntiDe4dotToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AntiDe4dotToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;AntiDe4dotToggle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="AntiILDasmToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 118</value>
+  </data>
+  <data name="AntiILDasmToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiILDasmToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="AntiILDasmToggle.Properties.OffText" xml:space="preserve">
+    <value>Anti ILDasm</value>
+  </data>
+  <data name="AntiILDasmToggle.Properties.OnText" xml:space="preserve">
+    <value>Anti ILDasm</value>
+  </data>
+  <data name="AntiILDasmToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="AntiILDasmToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;AntiILDasmToggle.Name" xml:space="preserve">
+    <value>AntiILDasmToggle</value>
+  </data>
+  <data name="&gt;&gt;AntiILDasmToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AntiILDasmToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;AntiILDasmToggle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AntiVMToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 87</value>
+  </data>
+  <data name="AntiVMToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiVMToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="AntiVMToggle.Properties.OffText" xml:space="preserve">
+    <value>Anti Virtual Machine</value>
+  </data>
+  <data name="AntiVMToggle.Properties.OnText" xml:space="preserve">
+    <value>Anti Virtual Machine</value>
+  </data>
+  <data name="AntiVMToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 25</value>
+  </data>
+  <data name="AntiVMToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;AntiVMToggle.Name" xml:space="preserve">
+    <value>AntiVMToggle</value>
+  </data>
+  <data name="&gt;&gt;AntiVMToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AntiVMToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;AntiVMToggle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AntiDumpToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 56</value>
+  </data>
+  <data name="AntiDumpToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiDumpToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="AntiDumpToggle.Properties.OffText" xml:space="preserve">
+    <value>Anti Dump</value>
+  </data>
+  <data name="AntiDumpToggle.Properties.OnText" xml:space="preserve">
+    <value>Anti Dump</value>
+  </data>
+  <data name="AntiDumpToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 25</value>
+  </data>
+  <data name="AntiDumpToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AntiDumpToggle.Name" xml:space="preserve">
+    <value>AntiDumpToggle</value>
+  </data>
+  <data name="&gt;&gt;AntiDumpToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AntiDumpToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;AntiDumpToggle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AntiDebugToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 25</value>
+  </data>
+  <data name="AntiDebugToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AntiDebugToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="AntiDebugToggle.Properties.OffText" xml:space="preserve">
+    <value>Anti Debug</value>
+  </data>
+  <data name="AntiDebugToggle.Properties.OnText" xml:space="preserve">
+    <value>Anti Debug</value>
+  </data>
+  <data name="AntiDebugToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="AntiDebugToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AntiDebugToggle.Name" xml:space="preserve">
+    <value>AntiDebugToggle</value>
+  </data>
+  <data name="&gt;&gt;AntiDebugToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AntiDebugToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;AntiDebugToggle.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NULLGroupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 3</value>
+  </data>
+  <data name="NULLGroupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 456</value>
+  </data>
+  <data name="NULLGroupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NULLGroupBox3.Text" xml:space="preserve">
+    <value>Antis</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3.Name" xml:space="preserve">
+    <value>NULLGroupBox3</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3.Parent" xml:space="preserve">
+    <value>ProtectionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProtectionsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 470</value>
+  </data>
+  <data name="ProtectionsTabPage.Text" xml:space="preserve">
+    <value>Protections</value>
+  </data>
+  <data name="&gt;&gt;ProtectionsTabPage.Name" xml:space="preserve">
+    <value>ProtectionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;ProtectionsTabPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;ProtectionsTabPage.Parent" xml:space="preserve">
+    <value>EXGTabControl</value>
+  </data>
+  <data name="&gt;&gt;ProtectionsTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FunctionsTabPage.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FunctionsTabPage.Appearance.HeaderActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FunctionsTabPage.Appearance.HeaderDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FunctionsTabPage.Appearance.HeaderHotTracked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FunctionsTabPage.Appearance.PageClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NULLGroupBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="NULLGroupBox4.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="VirtualizeAllFunctionsToggle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 24</value>
+  </data>
+  <data name="VirtualizeAllFunctionsToggle.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="VirtualizeAllFunctionsToggle.Properties.GlyphAlignment" type="DevExpress.Utils.HorzAlignment, DevExpress.Data.v22.2">
+    <value>Far</value>
+  </data>
+  <data name="VirtualizeAllFunctionsToggle.Properties.OffText" xml:space="preserve">
+    <value>Virtualize All Functions</value>
+  </data>
+  <data name="VirtualizeAllFunctionsToggle.Properties.OnText" xml:space="preserve">
+    <value>Virtualize All Functions</value>
+  </data>
+  <data name="VirtualizeAllFunctionsToggle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 25</value>
+  </data>
+  <data name="VirtualizeAllFunctionsToggle.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllFunctionsToggle.Name" xml:space="preserve">
+    <value>VirtualizeAllFunctionsToggle</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllFunctionsToggle.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ToggleSwitch, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllFunctionsToggle.Parent" xml:space="preserve">
+    <value>NULLGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;VirtualizeAllFunctionsToggle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FunctionSearchBox.EditValue" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FunctionSearchBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 65</value>
+  </data>
+  <data name="FunctionSearchBox.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FunctionSearchBox.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FunctionSearchBox.Properties.NullText" xml:space="preserve">
+    <value>Search method name...</value>
+  </data>
+  <data name="FunctionSearchBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>865, 29</value>
+  </data>
+  <data name="FunctionSearchBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;FunctionSearchBox.Name" xml:space="preserve">
+    <value>FunctionSearchBox</value>
+  </data>
+  <data name="&gt;&gt;FunctionSearchBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FunctionSearchBox.Parent" xml:space="preserve">
+    <value>NULLGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;FunctionSearchBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NULLGroupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 122</value>
+  </data>
+  <data name="NULLGroupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NULLGroupBox4.Text" xml:space="preserve">
+    <value>Search Fonction</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox4.Name" xml:space="preserve">
+    <value>NULLGroupBox4</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox4.Parent" xml:space="preserve">
+    <value>FunctionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NULLGroupBox5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="NULLGroupBox5.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="FunctionsCheckList.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 11.25pt</value>
+  </data>
+  <data name="FunctionsCheckList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="FunctionsCheckList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 21</value>
+  </data>
+  <data name="FunctionsCheckList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>914, 319</value>
+  </data>
+  <data name="FunctionsCheckList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FunctionsCheckList.Name" xml:space="preserve">
+    <value>FunctionsCheckList</value>
+  </data>
+  <data name="&gt;&gt;FunctionsCheckList.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.CheckedListBoxControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FunctionsCheckList.Parent" xml:space="preserve">
+    <value>NULLGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;FunctionsCheckList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NULLGroupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 128</value>
+  </data>
+  <data name="NULLGroupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 342</value>
+  </data>
+  <data name="NULLGroupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox5.Text" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox5.Name" xml:space="preserve">
+    <value>NULLGroupBox5</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox5.Parent" xml:space="preserve">
+    <value>FunctionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FunctionsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 470</value>
+  </data>
+  <data name="FunctionsTabPage.Text" xml:space="preserve">
+    <value>Functions</value>
+  </data>
+  <data name="&gt;&gt;FunctionsTabPage.Name" xml:space="preserve">
+    <value>FunctionsTabPage</value>
+  </data>
+  <data name="&gt;&gt;FunctionsTabPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;FunctionsTabPage.Parent" xml:space="preserve">
+    <value>EXGTabControl</value>
+  </data>
+  <data name="&gt;&gt;FunctionsTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RuntimeSettingsTabPage.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RuntimeSettingsTabPage.Appearance.HeaderActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RuntimeSettingsTabPage.Appearance.HeaderDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RuntimeSettingsTabPage.Appearance.HeaderHotTracked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RuntimeSettingsTabPage.Appearance.PageClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NULLGroupBox6.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RandomGenerateRuntimeNameButton.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RandomGenerateRuntimeNameButton.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v22.2" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFlEZXZFeHByZXNzLkRhdGEudjIyLjIsIFZlcnNpb249MjIuMi4z
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YQUBAAAAHURl
+        dkV4cHJlc3MuVXRpbHMuU3ZnLlN2Z0ltYWdlAQAAAAREYXRhBwICAAAACQMAAAAPAwAAAIIHAAAC77u/
+        PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0nVVRGLTgnPz4NCjxzdmcgeD0iMHB4IiB5PSIwcHgi
+        IHZpZXdCb3g9IjAgMCAzMiAzMiIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+        MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWw6c3Bh
+        Y2U9InByZXNlcnZlIiBpZD0iU3BlbGxDaGVja0FzWW91VHlwZSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3Jv
+        dW5kOm5ldyAwIDAgMzIgMzIiPg0KICA8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLkJsYWNre2ZpbGw6
+        IzcyNzI3Mjt9CgkuUmVke2ZpbGw6I0QxMUMxQzt9Cjwvc3R5bGU+DQogIDxwYXRoIGQ9Ik0zMiwyNGMt
+        MS40LDAtMi4yLTAuNy0yLjctMS4zQzI4LjgsMjIuMiwyOC42LDIyLDI4LDIycy0wLjgsMC4yLTEuMyww
+        LjdDMjYuMiwyMy4zLDI1LjQsMjQsMjQsMjQgIHMtMi4yLTAuNy0yLjctMS4zQzIwLjgsMjIuMiwyMC42
+        LDIyLDIwLDIycy0wLjgsMC4yLTEuMywwLjdDMTguMiwyMy4zLDE3LjQsMjQsMTYsMjRzLTIuMi0wLjct
+        Mi43LTEuM0MxMi44LDIyLjIsMTIuNiwyMiwxMiwyMiAgcy0wLjgsMC4yLTEuMywwLjdDMTAuMiwyMy4z
+        LDkuNCwyNCw4LDI0cy0yLjItMC43LTIuNy0xLjNDNC44LDIyLjIsNC42LDIyLDQsMjJzLTAuOCwwLjIt
+        MS4zLDAuN0MyLjIsMjMuMywxLjQsMjQsMCwyNHYtMiAgYzAuNiwwLDAuOC0wLjIsMS4zLTAuN0MxLjgs
+        MjAuNywyLjYsMjAsNCwyMHMyLjIsMC43LDIuNywxLjNDNy4yLDIxLjgsNy40LDIyLDgsMjJzMC44LTAu
+        MiwxLjMtMC43QzkuOCwyMC43LDEwLjYsMjAsMTIsMjAgIHMyLjIsMC43LDIuNywxLjNjMC41LDAuNSww
+        LjcsMC43LDEuMywwLjdzMC44LTAuMiwxLjMtMC43YzAuNS0wLjUsMS4zLTEuMywyLjctMS4zczIuMiww
+        LjcsMi43LDEuM2MwLjUsMC41LDAuNywwLjcsMS4zLDAuNyAgczAuOC0wLjIsMS4zLTAuN2MwLjUtMC41
+        LDEuMy0xLjMsMi43LTEuM3MyLjIsMC43LDIuNywxLjNjMC41LDAuNSwwLjcsMC43LDEuMywwLjdWMjR6
+        IiBjbGFzcz0iUmVkIiAvPg0KICA8cGF0aCBkPSJNMTIuMSwxOEg5LjZsLTAuNy0yLjJINS4yTDQuNSwx
+        OEgyTDUuNyw4aDIuN0wxMi4xLDE4eiBNOC4zLDE0bC0xLjEtMy4zQzcuMSwxMC40LDcuMSwxMC4xLDcs
+        OS44SDcgIGMwLDAuMy0wLjEsMC42LTAuMiwwLjlMNS43LDE0SDguM3ogTTEzLjMsMThsMC0xMGgzLjdj
+        MS4xLDAsMiwwLjIsMi42LDAuNmMwLjYsMC40LDAuOSwxLDAuOSwxLjdjMCwwLjUtMC4yLDEtMC42LDEu
+        NCAgYy0wLjQsMC40LTAuOCwwLjctMS40LDAuOHYwYzAuNywwLjEsMS4zLDAuMywxLjcsMC44YzAuNCww
+        LjQsMC43LDEsMC43LDEuNmMwLDAuOS0wLjMsMS42LTEsMi4yYy0wLjcsMC41LTEuNiwwLjgtMi43LDAu
+        OEgxMy4zeiAgIE0xNS42LDkuN1YxMmgxYzAuNSwwLDAuOC0wLjEsMS4xLTAuM2MwLjMtMC4yLDAuNC0w
+        LjUsMC40LTAuOWMwLTAuNy0wLjYtMS4xLTEuNy0xLjFIMTUuNnogTTE1LjYsMTMuN3YyLjZoMS4yICBj
+        MC41LDAsMC45LTAuMSwxLjItMC40YzAuMy0wLjIsMC41LTAuNiwwLjUtMWMwLTAuNC0wLjEtMC43LTAu
+        NC0wLjljLTAuMy0wLjItMC43LTAuMy0xLjItMC4zSDE1LjZ6IE0zMCwxNy42ICBjLTAuNywwLjQtMS43
+        LDAuNS0yLjksMC41Yy0xLjYsMC0yLjgtMC40LTMuNy0xLjNjLTAuOS0wLjktMS4zLTIuMS0xLjMtMy42
+        YzAtMS42LDAuNS0yLjksMS41LTMuOWMxLTEsMi4zLTEuNSwzLjktMS41ICBjMSwwLDEuOCwwLjEsMi41
+        LDAuNHYyLjJjLTAuNy0wLjQtMS41LTAuNi0yLjMtMC42Yy0xLDAtMS43LDAuMy0yLjMsMC45Yy0wLjYs
+        MC42LTAuOSwxLjQtMC45LDIuNGMwLDEsMC4zLDEuNywwLjgsMi4zICBjMC42LDAuNiwxLjMsMC45LDIu
+        MiwwLjljMC45LDAsMS43LTAuMiwyLjUtMC42VjE3LjZ6IiBjbGFzcz0iQmxhY2siIC8+DQo8L3N2Zz4L
+</value>
+  </data>
+  <data name="RandomGenerateRuntimeNameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 72</value>
+  </data>
+  <data name="RandomGenerateRuntimeNameButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 33</value>
+  </data>
+  <data name="RandomGenerateRuntimeNameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RandomGenerateRuntimeNameButton.Text" xml:space="preserve">
+    <value>Random generate</value>
+  </data>
+  <data name="&gt;&gt;RandomGenerateRuntimeNameButton.Name" xml:space="preserve">
+    <value>RandomGenerateRuntimeNameButton</value>
+  </data>
+  <data name="&gt;&gt;RandomGenerateRuntimeNameButton.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RandomGenerateRuntimeNameButton.Parent" xml:space="preserve">
+    <value>NULLGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;RandomGenerateRuntimeNameButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RuntimeNameBox.EditValue" xml:space="preserve">
+    <value>EXGuard.dll</value>
+  </data>
+  <data name="RuntimeNameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 34</value>
+  </data>
+  <data name="RuntimeNameBox.Properties.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="RuntimeNameBox.Properties.AutoHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="RuntimeNameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 29</value>
+  </data>
+  <data name="RuntimeNameBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RuntimeNameBox.Name" xml:space="preserve">
+    <value>RuntimeNameBox</value>
+  </data>
+  <data name="&gt;&gt;RuntimeNameBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RuntimeNameBox.Parent" xml:space="preserve">
+    <value>NULLGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;RuntimeNameBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 3</value>
+  </data>
+  <data name="NULLGroupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>352, 126</value>
+  </data>
+  <data name="NULLGroupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox6.Text" xml:space="preserve">
+    <value>Runtime Name</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox6.Name" xml:space="preserve">
+    <value>NULLGroupBox6</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox6.Parent" xml:space="preserve">
+    <value>RuntimeSettingsTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RuntimeSettingsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 470</value>
+  </data>
+  <data name="RuntimeSettingsTabPage.Text" xml:space="preserve">
+    <value>Runtime Settings</value>
+  </data>
+  <data name="&gt;&gt;RuntimeSettingsTabPage.Name" xml:space="preserve">
+    <value>RuntimeSettingsTabPage</value>
+  </data>
+  <data name="&gt;&gt;RuntimeSettingsTabPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;RuntimeSettingsTabPage.Parent" xml:space="preserve">
+    <value>EXGTabControl</value>
+  </data>
+  <data name="&gt;&gt;RuntimeSettingsTabPage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LogsTabPage.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="LogsTabPage.Appearance.HeaderActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="LogsTabPage.Appearance.HeaderDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="LogsTabPage.Appearance.HeaderHotTracked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="LogsTabPage.Appearance.PageClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="LogBox.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt</value>
+  </data>
+  <data name="LogBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="LogBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LogBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 470</value>
+  </data>
+  <data name="LogBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LogBox.Name" xml:space="preserve">
+    <value>LogBox</value>
+  </data>
+  <data name="&gt;&gt;LogBox.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.ListBoxControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LogBox.Parent" xml:space="preserve">
+    <value>LogsTabPage</value>
+  </data>
+  <data name="&gt;&gt;LogBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LogsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 470</value>
+  </data>
+  <data name="LogsTabPage.Text" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="&gt;&gt;LogsTabPage.Name" xml:space="preserve">
+    <value>LogsTabPage</value>
+  </data>
+  <data name="&gt;&gt;LogsTabPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;LogsTabPage.Parent" xml:space="preserve">
+    <value>EXGTabControl</value>
+  </data>
+  <data name="&gt;&gt;LogsTabPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AboutTabPage.Appearance.Header.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AboutTabPage.Appearance.HeaderActive.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AboutTabPage.Appearance.HeaderDisabled.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AboutTabPage.Appearance.HeaderHotTracked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="AboutTabPage.Appearance.PageClient.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="NULLGroupBox7.AppearanceCaption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="labelControl1.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 12pt</value>
+  </data>
+  <data name="labelControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 90</value>
+  </data>
+  <data name="labelControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>822, 57</value>
+  </data>
+  <data name="labelControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="labelControl1.Text" xml:space="preserve">
+    <value>EXGuard Technology enables software publishers to secure their revenue by protecting their software.
+EXGuard protects your application against unauthorized use, theft, tampering or other corruption.
+and EXGuard technology transforms .NET opcodes into new codes understood only by the EXGuard virtual machine. </value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>NULLGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NULLabel99.Appearance.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt</value>
+  </data>
+  <data name="NULLabel99.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 30</value>
+  </data>
+  <data name="NULLabel99.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 25</value>
+  </data>
+  <data name="NULLabel99.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NULLabel99.Text" xml:space="preserve">
+    <value>EXGuard .NET Code Virtualizer</value>
+  </data>
+  <data name="&gt;&gt;NULLabel99.Name" xml:space="preserve">
+    <value>NULLabel99</value>
+  </data>
+  <data name="&gt;&gt;NULLabel99.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLabel99.Parent" xml:space="preserve">
+    <value>NULLGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;NULLabel99.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NULLGroupBox7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="NULLGroupBox7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 280</value>
+  </data>
+  <data name="NULLGroupBox7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 190</value>
+  </data>
+  <data name="NULLGroupBox7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox7.Name" xml:space="preserve">
+    <value>NULLGroupBox7</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox7.Parent" xml:space="preserve">
+    <value>AboutTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLGroupBox7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NULLPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 13</value>
+  </data>
+  <data name="NULLPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 261</value>
+  </data>
+  <data name="NULLPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="NULLPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;NULLPictureBox.Name" xml:space="preserve">
+    <value>NULLPictureBox</value>
+  </data>
+  <data name="&gt;&gt;NULLPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NULLPictureBox.Parent" xml:space="preserve">
+    <value>AboutTabPage</value>
+  </data>
+  <data name="&gt;&gt;NULLPictureBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AboutTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>918, 470</value>
+  </data>
+  <data name="AboutTabPage.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="&gt;&gt;AboutTabPage.Name" xml:space="preserve">
+    <value>AboutTabPage</value>
+  </data>
+  <data name="&gt;&gt;AboutTabPage.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;AboutTabPage.Parent" xml:space="preserve">
+    <value>EXGTabControl</value>
+  </data>
+  <data name="&gt;&gt;AboutTabPage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;EXGTabControl.Name" xml:space="preserve">
+    <value>EXGTabControl</value>
+  </data>
+  <data name="&gt;&gt;EXGTabControl.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabControl, DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;EXGTabControl.Parent" xml:space="preserve">
+    <value>fluentDesignFormContainer1</value>
+  </data>
+  <data name="&gt;&gt;EXGTabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="fluentDesignFormContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1217, 523</value>
+  </data>
+  <data name="fluentDesignFormContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.Name" xml:space="preserve">
+    <value>fluentDesignFormContainer1</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer, DevExpress.XtraBars.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fluentDesignFormContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1217, 523</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>EXGuard</value>
+  </data>
+  <data name="&gt;&gt;searchLookUpEdit1View.Name" xml:space="preserve">
+    <value>searchLookUpEdit1View</value>
+  </data>
+  <data name="&gt;&gt;searchLookUpEdit1View.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.Views.Grid.GridView, DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.XtraForm, DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>
